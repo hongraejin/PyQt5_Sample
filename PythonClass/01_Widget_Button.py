@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
-class Exme(QWidget):
+class Exam(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -13,4 +13,4 @@ class Exme(QWidget):
 
 app = QApplication(sys.argv)
 w = Exam()
-sys.exit(app.exec_)
+app.exec_()
